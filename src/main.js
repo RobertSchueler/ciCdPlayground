@@ -21,7 +21,8 @@ new App({
 		// What do you like to do when you're not coding?
 		hobbies: [
 			'boardgames',
-			'hiking'
+			'hiking',
+			'slacking',
 		]
 	}
 });
