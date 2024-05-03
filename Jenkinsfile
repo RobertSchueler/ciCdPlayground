@@ -8,7 +8,6 @@ pipeline {
     stages {
         stage('checkout') {
             steps {
-                checkout scm
                 sh 'yarn install'
                 sh 'yarn build'
             }
